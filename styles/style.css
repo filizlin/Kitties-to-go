@@ -1,0 +1,168 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  box-sizing: border-box
+}
+
+/* main heading on top */
+header{
+  align-content:flex-start;
+  float: center;
+  background:#009CBA;
+  color: white;
+  padding: 3% 7%;
+  line-height: 4rem;
+}
+
+header h2 {
+  line-height: 30px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.italic{
+  font-style:italic;
+}
+
+/* heading navigation bar */
+nav ul{
+  align-content:flex-start;
+  background: #EBEBEB;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 7%;
+  border-top: 0%;
+}
+nav ul li{
+  float: center;
+  height: auto;
+  display: inline;
+  padding: 2% 1%;
+  color: #3A3A3A;
+  }
+
+/* position main text and side bar*/
+main {
+  display: table;
+}
+
+main section {
+  display: table-cell;
+  width: 70%;
+}
+
+main aside {
+  display: table-cell;
+  width: 30%;
+
+}
+
+/* position footer */
+footer {
+  clear:both;
+}
+
+/* padding */
+main section section {
+  padding: 4% 8% 2% 10%;
+}
+
+main section article {
+  padding: 4% 5% 2% 10%;
+}
+
+main aside {
+  padding: 4% 8% 2% 0%;
+}
+
+footer {
+  padding: 4% 10% 2% 10%;
+}
+
+/* section styling */
+.first-section h3 {
+  color: #00BCD8;
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+
+}
+.second-section h3 {
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+
+}
+.first-section {
+  line-height: 1.5rem;
+}
+.second-section {
+  line-height: 1.5rem;
+}
+main section article {
+  color: #00BCD8;
+  font-size: 1.5rem;
+}
+
+.second-section p{
+  padding-bottom: 2rem;
+}
+
+/* aside styling */
+main aside h4 {
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+main aside article {
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.inline-navigation {
+  color:#00BCD8;
+  padding-top: 1rem;
+}
+
+aside figure img {
+  width: 100%;
+  height: auto;
+}
+
+/* footer styling */
+footer {
+  background:#515659;
+  color: white;
+  text-align: center;
+}
+
+footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-text {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.center-text2 {
+  padding-bottom: 2rem;
+}
+
+/* footer navigation bar */
+footer nav ul{
+  background:#515659;
+  color: white;
+  padding: 2% 10%;
+
+}
+
+footer nav ul li {
+  display: inline;
+  color: white;
+  }

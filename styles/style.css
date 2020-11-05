@@ -16,6 +16,8 @@ header{
 
 header h2 {
   line-height: 30px;
+  font-weight: normal;
+
 }
 
 .bold{
@@ -32,16 +34,21 @@ nav ul{
   background: #EBEBEB;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  padding-left: 7%;
+  padding-left: 6%;
   border-top: 0%;
 }
-nav ul li{
+nav ul li {
   float: center;
   height: auto;
   display: inline;
   padding: 2% 1%;
   color: #3A3A3A;
   }
+
+nav ul li a{
+  color: #3A3A3A;
+  text-decoration: none;
+}
 
 /* position main text and side bar*/
 main {
@@ -104,10 +111,16 @@ footer {
 main section article {
   color: #00BCD8;
   font-size: 1.5rem;
+  line-height: 2.5rem;
 }
 
 .second-section p{
   padding-bottom: 2rem;
+}
+
+.inline-navigation {
+  color:#00BCD8;
+  text-decoration: none;
 }
 
 /* aside styling */
@@ -122,9 +135,11 @@ main aside article {
   padding-bottom: 2rem;
 }
 
-.inline-navigation {
+.aside-navigation {
   color:#00BCD8;
   padding-top: 1rem;
+  text-decoration: none;
+
 }
 
 aside figure img {
@@ -162,7 +177,8 @@ footer nav ul{
 
 }
 
-footer nav ul li {
+footer nav ul li a{
   display: inline;
   color: white;
-  }
+  text-decoration: none;
+}

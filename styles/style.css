@@ -12,11 +12,15 @@ header{
   color: white;
   padding: 3% 7%;
   line-height: 4rem;
+  height: 200px;
 }
 
 header h2 {
   line-height: 30px;
   font-weight: normal;
+  width: 20rem;
+  align-content: flex-start;
+  float:left;
 
 }
 
